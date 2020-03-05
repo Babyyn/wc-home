@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_app_name" />
+
+    <Button
+        android:id="@+id/friend_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ARouter 查看 Richer" />
+
+    <Button
+        android:id="@+id/friend_detail_by_original"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="startActivity 查看 Richer" />
+
+    <Button
+        android:id="@+id/get_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get User Name From Account" />
+
+</LinearLayout>
