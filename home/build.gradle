@@ -44,7 +44,7 @@ dependencies {
     implementation 'com.alibaba:arouter-api:1.5.0'
     kapt 'com.alibaba:arouter-compiler:1.2.2'
 
-    if (isLibModule) {
+    if (integrate) {
         implementation project(path: ':baselib')
         implementation project(path: ':home_api')
         implementation project(path: ':friend_api')
