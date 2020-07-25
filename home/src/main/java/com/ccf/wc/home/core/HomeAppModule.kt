@@ -5,7 +5,15 @@ import com.ccf.wc.baselib.BaseAppModule
 
 class HomeAppModule : BaseAppModule() {
 
+    val TAG = "HomeAppModule"
+
     override fun onCreate() {
-        Log.d("HomeAppModule", "onCreate")
+        super.onCreate()
+        // TODO
+    }
+
+    override fun lazyInitAfterLaunched() {
+        super.lazyInitAfterLaunched()
+        // TODO
     }
 }
